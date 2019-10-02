@@ -1,4 +1,198 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    }
+
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 17px;
+  }
+
+
+.container {
+    background-color: #E0DEE0;
+    font-size: 200%;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+  }
+
+.emphasis {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 25px 0px 20px 0px;
+  }
+
+h1 {
+    box-sizing: border-box;
+    font-family: serif;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+/* baku */
+
+.baku {
+    box-sizing: border-box;
+    background-image: url("../images/baku.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 25px;
+    padding: 15% 85% 65% 15%;
+}
+
+/*
+@media screen and (min-width: 575px){
+  .preview {
+    margin-bottom: 1%;
+    width: 48%;
+  }
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  .preview {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+@media screen and (min-width: 1199px){
+  .preview {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+*/
+
+/* london */
+
+.london {
+    box-sizing: border-box;
+    background-image: url("../images/london.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    display: inline-block;
+    height: 25px;
+    padding: 10% 85% 80% 15%;
+}
+/*
+@media screen and (min-width: 575px){
+  .preview {
+    margin-bottom: 1%;
+    width: 48%;
+  }
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  .preview {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+@media screen and (min-width: 1199px){
+  .preview {
+    margin: 1%;
+    width: 23%;
+  }
+}
+*/
+
+
+/* madrid */
+
+.madrid {
+    box-sizing: border-box;
+    background-image: url("../images/madrid.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    display: inline-block;
+    height: 25px;
+    padding: 10% 85% 70% 15%;
+}
+/*
+@media screen and (min-width: 575px){
+  .preview {
+    margin-bottom: 1%;
+    width: 48%;
+  }
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  .preview {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+@media screen and (min-width: 1199px){
+  .preview {
+    margin: 1%;
+    width: 23%;
+  }
+}
+*/
+
+
+/* rome */
+
+.rome {
+    box-sizing: border-box;
+    background-image: url("../images/rome.jpg");
+    background-position: cover;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    padding: 10% 85% 70% 15%;
+}
+
+@media screen and (min-width: 575px){
+  .preview {
+    margin-bottom: 1%;
+    width: 49%;
+    padding: 5% 45% 35% 8%;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 1em;
+  margin: 0;
+}
+
+@media screen and (min-width: 991px){
+  .preview {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+@media screen and (min-width: 1199px){
+  .preview {
+    margin: 1%;
+    height: 30px;
+    width: 23%;
+  }
 }
